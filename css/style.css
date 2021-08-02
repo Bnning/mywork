@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: monospace;
+	transition:all ease-in .3s;
 }
 
 html, body {
