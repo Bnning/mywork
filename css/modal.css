@@ -38,6 +38,7 @@
     background: #fff;
     text-align: left;
     height:100%;
+    opacity: 0;
 }
 
 .modal a.close-modal {

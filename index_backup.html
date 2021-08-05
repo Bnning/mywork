@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/modal.css"/>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/jquery.ui-1.10.4.tabs.min.js"></script>
+        <script src="js/modal.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <section class="panel one">
+                <b>ONE</b>
+            </section>
+            <section class="panel two">
+                <div id="cate_tab">
+                    <ul>
+                        <li><a href="#all">ALL</a></li>
+                        <li><a href="#UX">UX</a></li>
+                        <li><a href="#contents">CONT</a></li>
+                    </ul>
+                    <div id="all">
+                        <ul>
+                            <li><a href="#pt1" rel="modal:open">thumb_2</a></li>
+                            <li><a href="#pt2" rel="modal:open">thumb_1</a></li>
+                        </ul>
+                    </div>
+                    <div id="UX">
+
+                    </div>
+                    <div id="contents">
+
+                    </div>
+                </div>
+                <div class="project_wrapper">
+                    <!--test-->
+                    <div id="pt1" class="modal">
+                        <p>Thanks for clicking. That felt good.</p>
+                    </div>
+                    <div id="pt2" class="modal">
+                        <p>Thanks for clicking. That felt good.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="js/script.js" defer></script>
+        <script>
+            AOS.init();
+            $(function () {
+                $("#cate_tab").tabs();
+            });
+            
+        </script>
+    </body>
+</html>
