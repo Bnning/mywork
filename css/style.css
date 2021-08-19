@@ -3141,6 +3141,12 @@ a.header__mail{
 	}
 }
 
+.modal{
+	-webkit-animation: slideInUp .3s 50ms;
+	animation: slideInUp .3s 50ms;
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
 
 .modal__dim {
 	position: fixed;
@@ -3223,13 +3229,6 @@ a.header__mail{
 	visibility: visible;
 	transition-property: opacity, visibility;
 	transition-duration: 400ms, 0s
-}
-
-.modal.modal--opened .modal-body {
-	-webkit-animation: slideInUp .3s 50ms;
-	animation: slideInUp .3s 50ms;
-	-webkit-animation-fill-mode: backwards;
-	animation-fill-mode: backwards
 }
 
 .img-codes {
