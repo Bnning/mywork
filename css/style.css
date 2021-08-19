@@ -3268,7 +3268,9 @@ a.header__mail{
 	}
 }
 
-
+#cate_tab{
+	background-color:#fff;
+}
 .project_wrapper{
 	width:auto;
 	text-align:center;
