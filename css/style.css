@@ -665,7 +665,7 @@ body {
 
 @-webkit-keyframes slideInUp {
 	from {
-		transform: translate3d(0, 8%, 0);
+		transform: translate3d(0, 100%, 0);
 		visibility: visible;
 		-webkit-animation-timing-function: cubic-bezier(.455, .03, .515, .955);
 		animation-timing-function: cubic-bezier(.455, .03, .515, .955)
@@ -680,7 +680,7 @@ body {
 
 @keyframes slideInUp {
 	from {
-		transform: translate3d(0, 8%, 0);
+		transform: translate3d(0, 100%, 0);
 		visibility: visible;
 		-webkit-animation-timing-function: cubic-bezier(.455, .03, .515, .955);
 		animation-timing-function: cubic-bezier(.455, .03, .515, .955)
@@ -700,7 +700,7 @@ body {
 
 	to {
 		visibility: hidden;
-		transform: translate3d(0, 10%, 0)
+		transform: translate3d(0, 100%, 0)
 	}
 }
 
@@ -711,7 +711,7 @@ body {
 
 	to {
 		visibility: hidden;
-		transform: translate3d(0, 10%, 0)
+		transform: translate3d(0, 100%, 0)
 	}
 }
 
