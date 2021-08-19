@@ -3281,3 +3281,9 @@ a.header__mail{
 	margin:0 auto;
 	text-align: center;
 } 
+
+@media screen and (max-width:639px) {
+	.cont_1200 img{
+		width:100%;
+	}
+}
