@@ -3147,6 +3147,12 @@ a.header__mail{
 	-webkit-animation-fill-mode: backwards;
 	animation-fill-mode: backwards
 }
+.close-modal {
+	-webkit-animation: slideOutDown .3s 50ms;
+	animation: slideOutDown .3s 50ms;
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
 
 .modal__dim {
 	position: fixed;
