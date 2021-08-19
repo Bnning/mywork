@@ -3283,6 +3283,9 @@ a.header__mail{
 } 
 
 @media screen and (max-width:639px) {
+	.cont_1200{
+		width:100%;
+	}
 	.cont_1200 img{
 		width:100%;
 	}
