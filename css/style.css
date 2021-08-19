@@ -40,19 +40,7 @@ html, body {
 .top {
 	height: 500px;
 	font-size: 30px;
-}
-.project_wrapper{
-	width:auto;
-	text-align:center;
-}
-.bg_wrapper{
-	text-align:center;
-}
-.cont_1200{
-	width:1200px;
-	margin:0 auto;
-	text-align: center;
-} */
+}*/
 
 @import "//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css";
 @import "https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap";
@@ -810,6 +798,7 @@ body {
 		transform: translate3d(0, 0, 0)
 	}
 }
+
 
 .btn-line {
 	display: block;
@@ -3278,3 +3267,17 @@ a.header__mail{
 		font-size: 13px
 	}
 }
+
+
+.project_wrapper{
+	width:auto;
+	text-align:center;
+}
+.bg_wrapper{
+	text-align:center;
+}
+.cont_1200{
+	width:1200px;
+	margin:0 auto;
+	text-align: center;
+} 
