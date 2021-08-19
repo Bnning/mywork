@@ -1166,15 +1166,8 @@ a.header__mail{
 	min-height: inherit;
 	max-width: 2560px;
 	margin: 0 auto;
-	background-size: cover;
-	background-position: 50%;
-	background-image: url(../images/visual-bg-3.webp);
-	background-repeat: no-repeat
 }
 
-.visual__inner.no-webp {
-	background-image: url(../images/visual-bg-3.jpg)
-}
 
 .visual__background {
 	position: absolute;
