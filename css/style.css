@@ -2490,8 +2490,8 @@ a.header__mail{
 	border-radius: 6px;
 	overflow: hidden;
 	transition: transform .3s ease;
-	width:324px;
-	height:385px;
+	width:294px;
+	height:355px;
 	vertical-align: top;
 }
 
@@ -2517,10 +2517,9 @@ a.header__mail{
 .blog-list__img {
 	display: block;
 	width: 100%;
-	height: 385px;
+	height: 355px;
 	background-size: cover;
-	background-position: 50%;
-	margin:15px;
+	background-position: 50%
 }
 
 
@@ -3296,6 +3295,6 @@ a.header__mail{
 	color:#fff;
 	-webkit-text-stroke: 1px #000;
 }
-.tab-list .ui-state-active a, .tab-list .ui-state-active a:hover{
+.tab-list .ui-state-active a, .tab-list .ui-state-active a{
 	color:#000;
 }
