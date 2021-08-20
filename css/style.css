@@ -2495,6 +2495,7 @@ a.header__mail{
 	width:324px;
 	height:385px;
 	vertical-align: top;
+	overflow:hidden;
 }
 
 .blog-list__item:hover {
@@ -3299,6 +3300,6 @@ a.header__mail{
 	-webkit-text-stroke: 1px #000;
 	line-height:1;
 }
-.tab-list .ui-state-active a, .tab-list .ui-state-active a{
+.tab-list .ui-state-active a, .tab-list a:hover{
 	color:#000;
 }
