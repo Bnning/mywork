@@ -3284,9 +3284,17 @@ a.header__mail{
 	}
 }
 
+.tab-list{
+	position:absolute;
+	left:0;
+	top:117px;
+}
 .tab-list a{
 	font-size:141px;
 	font-weight:bold;
 	color:#fff;
 	border:1px solid #000;
+}
+.tab-list .ui-state-active a{
+	color:#000;
 }
