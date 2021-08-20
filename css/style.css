@@ -2399,7 +2399,6 @@ a.header__mail{
 	max-width: 1600px;
 	margin: 0 auto;
 	padding: 230px 60px 270px;
-	background-color:#fff;
 }
 
 @media screen and (max-width:979px) {
@@ -3263,9 +3262,6 @@ a.header__mail{
 	}
 }
 
-#cate_tab{
-	background-color:#fff;
-}
 .project_wrapper{
 	width:auto;
 	text-align:center;
@@ -3298,9 +3294,9 @@ a.header__mail{
 	font-size:141px;
 	font-weight:bold;
 	color:transparent;
-	-webkit-text-stroke: 1px #000;
+	-webkit-text-stroke: 1px #fff;
 	line-height:1;
 }
 .tab-list .ui-state-active a, .tab-list a:hover{
-	color:#000;
+	color:#fff;
 }
