@@ -2473,10 +2473,9 @@ a.header__mail{
 .blog-list {
 	position: relative;
 	width: 100%;
-	display: grid;
-	max-width: 100%;
-	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-	grid-gap: 30px
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 @media screen and (max-width:979px) {
@@ -2488,10 +2487,12 @@ a.header__mail{
 
 .blog-list__item {
 	position: relative;
-	border: solid 1px #d9d9d9;
 	border-radius: 6px;
 	overflow: hidden;
-	transition: transform .3s ease
+	transition: transform .3s ease;
+	width:294px;
+	height:355px;
+	vertical-align: top;
 }
 
 .blog-list__item:hover {
