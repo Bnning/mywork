@@ -181,7 +181,8 @@ body {
 }
 
 .wrap {
-	position: relative
+	position: relative;
+	background-color:#fff;
 }
 
 .blind {
