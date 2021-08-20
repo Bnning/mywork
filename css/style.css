@@ -2490,8 +2490,8 @@ a.header__mail{
 	border-radius: 6px;
 	overflow: hidden;
 	transition: transform .3s ease;
-	width:294px;
-	height:355px;
+	width:324px;
+	height:385px;
 	vertical-align: top;
 }
 
@@ -3293,8 +3293,8 @@ a.header__mail{
 	font-size:141px;
 	font-weight:bold;
 	color:#fff;
-	border:1px solid #000;
+	-webkit-text-stroke: 1px #000;
 }
-.tab-list .ui-state-active a{
+.tab-list .ui-state-active a, .tab-list .ui-state-active a:hover{
 	color:#000;
 }
