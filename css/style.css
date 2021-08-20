@@ -2476,6 +2476,7 @@ a.header__mail{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	padding:0 0 0 270px;
 }
 
 @media screen and (max-width:979px) {
@@ -2486,12 +2487,13 @@ a.header__mail{
 }
 
 .blog-list__item {
+	padding:15px;
 	position: relative;
 	border-radius: 6px;
 	overflow: hidden;
 	transition: transform .3s ease;
-	width:294px;
-	height:355px;
+	width:324px;
+	height:385px;
 	vertical-align: top;
 }
 
@@ -3288,12 +3290,14 @@ a.header__mail{
 	position:absolute;
 	left:0;
 	top:117px;
+	z-index: 1;
 }
 .tab-list a{
 	font-size:141px;
 	font-weight:bold;
-	color:#fff;
+	color:transparent;
 	-webkit-text-stroke: 1px #000;
+	line-height:1;
 }
 .tab-list .ui-state-active a, .tab-list .ui-state-active a{
 	color:#000;
