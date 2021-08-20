@@ -2397,7 +2397,8 @@ a.header__mail{
 	position: relative;
 	max-width: 1600px;
 	margin: 0 auto;
-	padding: 230px 60px 270px
+	padding: 230px 60px 270px;
+	background-color:#fff;
 }
 
 @media screen and (max-width:979px) {
@@ -2475,7 +2476,7 @@ a.header__mail{
 	display: grid;
 	max-width: 100%;
 	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-	grid-gap: 70px
+	grid-gap: 30px
 }
 
 @media screen and (max-width:979px) {
@@ -3291,4 +3292,10 @@ a.header__mail{
 	.cont_1200 img{
 		width:100%;
 	}
+}
+
+#tab-list a{
+	font-size:141px;
+	font-weight:bold;
+	color:#fff;
 }
