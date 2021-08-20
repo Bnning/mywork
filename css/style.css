@@ -2477,7 +2477,7 @@ a.header__mail{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding:0 0 0 270px;
+	padding:0 0 0 180px;
 }
 
 @media screen and (max-width:979px) {
