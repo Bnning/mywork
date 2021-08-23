@@ -337,7 +337,6 @@ body {
 }
 
 .fixed {
-	z-index: -99;
 	position: fixed !important
 }
 
