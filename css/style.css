@@ -2478,10 +2478,10 @@ a.header__mail{
 	padding:0 0 0 180px;
 }
 
-@media screen and (max-width:979px) {
+@media screen and (max-width:639px) {
 	.blog-list {
-		grid-gap: 40px;
-		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+		padding-left:0;
+		padding-top:90px;
 	}
 }
 
@@ -2511,8 +2511,10 @@ a.header__mail{
 }
 
 @media screen and (max-width:979px) {
-	.blog-list__item:nth-child(n+6) {
-		display: none
+	.blog-list__item{
+		padding:5px;
+		width:50%;
+		height:285px;
 	}
 }
 
@@ -2533,7 +2535,11 @@ a.header__mail{
 @media screen and (max-width:979px) {
 	.blog-list__info {
 		padding: 20px;
-		font-size: 15px
+		font-size: 15px;
+	}
+	.blog-list__img{
+		background-size:contain;
+		height:275px;
 	}
 }
 
@@ -3286,9 +3292,10 @@ a.header__mail{
 .tab-list{
 	position:absolute;
 	left:0;
-	top:165px;
+	top:375px;
 	z-index: 1;
 }
+
 .tab-list a{
 	font-size:141px;
 	font-weight:bold;
@@ -3298,4 +3305,13 @@ a.header__mail{
 }
 .tab-list .ui-state-active a, .tab-list a:hover{
 	color:#fff;
+}
+@media screen and (max-width:639px) {
+	.tab-list{
+		top:85px;
+		left:60px;
+	}
+	.tab-list a{
+		font-size:80px;
+	}
 }
