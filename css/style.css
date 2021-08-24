@@ -3294,6 +3294,8 @@ a.header__mail{
 	left:0;
 	top:375px;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
 }
 
 .tab-list a{
@@ -3302,6 +3304,7 @@ a.header__mail{
 	color:transparent;
 	-webkit-text-stroke: 1px #fff;
 	line-height:1;
+	display: inline-block;
 }
 .tab-list .ui-state-active a, .tab-list a:hover{
 	color:#fff;
