@@ -1600,7 +1600,8 @@ a.header__mail{
 	position: relative;
 	overflow-x: hidden;
 	background-color: #fafafa;
-	padding-top: 160px
+	padding-top: 160px;
+	padding-bottom:160px;
 }
 
 @media screen and (max-width:979px) {
@@ -3275,15 +3276,25 @@ a.header__mail{
 	margin:0 auto;
 	text-align: center;
 } 
-
+.cont_1200{
+	width:1200px;
+	margin:0 auto;
+	text-align: center;
+}
 @media screen and (max-width:639px) {
 	.cont_wrapper{
+		width:100%;
+	}
+	.cont_1200{
 		width:100%;
 	}
 	.cont_wrapper img{
 		width:100%;
 	}
 	.cont_wrapper video{
+		width:100%;
+	}
+	.cont_1200 video{
 		width:100%;
 	}
 }
