@@ -2469,7 +2469,7 @@ a.header__mail{
 	}
 }
 
-.blog-list {
+.port-list {
 	position: relative;
 	width: 100%;
 	display: flex;
@@ -2479,13 +2479,13 @@ a.header__mail{
 }
 
 @media screen and (max-width:639px) {
-	.blog-list {
+	.port-list {
 		padding-left:0;
 		padding-top:90px;
 	}
 }
 
-.blog-list__item {
+.port-list__item {
 	padding:15px;
 	position: relative;
 	border-radius: 6px;
@@ -2497,50 +2497,65 @@ a.header__mail{
 	overflow:hidden;
 }
 
-.blog-list__item:hover {
+.port-list__item:hover {
 	transform: translateY(-10px);
 	box-shadow: 0 20px 30px -2px rgba(20, 20, 20, .12)
 }
 
-.blog-list__item:hover .blog-list__title {
+.port-list__item:hover .port-list__title {
 	text-decoration: underline
 }
 
 
 @media screen and (max-width:979px) {
-	.blog-list__item{
+	.port-list__item{
 		padding:5px;
 		width:50%;
 		height:285px;
 	}
 }
 
-.blog-list__img {
+.port-list__img {
 	display: block;
 	width: 100%;
 	height: 355px;
 	background-size: cover;
-	background-position: 50%
+	background-position: 50%;
+	position:relative;
+	box-sizing: border-box;
 }
 
 
-.blog-list__info {
-	padding: 30px;
-	font-size: 17px
+.port-list__name {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding: 40px 30px 30px 30px;
+	font-size: 17px;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+}
+.port-list__name p{
+	color:#fff;
+	font-weight: bold;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width:100%;
+	overflow:hidden;
 }
 
 @media screen and (max-width:979px) {
-	.blog-list__info {
-		padding: 20px;
+	.port-list__name {
+		padding: 40px 20px 20px 20px;
 		font-size: 15px;
 	}
-	.blog-list__img{
+	.port-list__img{
 		background-size:contain;
 		height:275px;
 	}
 }
 
-.blog-list__title {
+.port-list__title {
 	display: block;
 	margin-bottom: 6px;
 	font-size: inherit;
@@ -2549,7 +2564,7 @@ a.header__mail{
 	white-space: nowrap
 }
 
-.blog-list__date {
+.port-list__date {
 	font-size: 13px;
 	color: #747474
 }
@@ -3270,17 +3285,20 @@ a.header__mail{
 .bg_wrapper{
 	text-align:center;
 }
-.cont_1200{
-	width:1200px;
+.cont_wrapper{
+	width:1280px;
 	margin:0 auto;
 	text-align: center;
 } 
 
 @media screen and (max-width:639px) {
-	.cont_1200{
+	.cont_wrapper{
 		width:100%;
 	}
-	.cont_1200 img{
+	.cont_wrapper img{
+		width:100%;
+	}
+	.cont_wrapper video{
 		width:100%;
 	}
 }
