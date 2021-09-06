@@ -1274,15 +1274,18 @@ a.header__mail{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 410px;
+	width: 500px;
 	height: 144px;
 	margin-top: -42px;
-	margin-left: -190px;
+	margin-left: -250px;
 	font-size: 48px;
 	line-height: 1.5;
 	text-align: center;
 	opacity: 0;
 	color:#fff;
+}
+.visual__hello img{
+	width:32px;
 }
 
 @media screen and (max-width:639px) {
@@ -3328,4 +3331,8 @@ a.header__mail{
 	.tab-list a{
 		font-size:80px;
 	}
+}
+.burst_effect{
+	width:150px;
+	text-align: center;
 }
