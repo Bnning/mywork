@@ -26,7 +26,7 @@ html, body {
 	width: 100%;
 	font-size: 60px;
 	text-align: center;
-	color: #fff;
+	color: #ededed;
 }
 .one {
     background-color: #67D5B5;
@@ -177,7 +177,7 @@ body {
 	text-align: left;
 	font-weight: 400;
 	line-height: 1.5;
-	background-color: #fff;
+	background-color: #ededed;
 	-webkit-font-smoothing: antialiased
 }
 
@@ -806,16 +806,17 @@ body {
 	display: block;
 	min-width: 190px;
 	padding: 16px 20px;
-	color: #333;
+	color: #ededed;
 	border-radius: 4px;
-	border: solid 1px #171414;
+	border: solid 1px #ededed;
 	cursor: pointer
 }
 
 .btn-line .btn-text {
 	display: inline-block;
 	font-size: 17px;
-	font-weight: 700
+	font-weight: 700;
+	color:#ededed;
 }
 
 .btn-line:after {
@@ -831,13 +832,8 @@ body {
 
 .btn-line:hover,
 .btn-line:focus {
-	color: #3e87f8;
-	border-color: #3e87f8
-}
-
-.btn-line:hover:after,
-.btn-line:focus:after {
-	background-color: #3e87f8
+	color: #99651D;
+	border-color: #99651D
 }
 
 @media screen and (max-width:979px) {
@@ -1282,10 +1278,10 @@ a.header__mail{
 	line-height: 1.5;
 	text-align: center;
 	opacity: 0;
-	color:#000;
+	color:#ededed;
 }
 .visual__hello img{
-	width:32px;
+	width:50px;
 }
 
 @media screen and (max-width:639px) {
@@ -1411,7 +1407,7 @@ a.header__mail{
 	width: inherit;
 	max-width: 1600px;
 	margin: 0 auto;
-	padding: 0 60px 160px
+	padding: 0 60px 260px
 }
 
 @media screen and (max-width:979px) {
@@ -1430,9 +1426,9 @@ a.header__mail{
 	margin-top: 120px;
 	text-align: left;
 	font-size: 46px;
-	font-weight: 400;
-	line-height: 1.74;
-	color:#fff;
+	font-weight: bold;
+	line-height: 1.4;
+	color:#ededed;
 }
 
 @media screen and (max-width:1279px) {
@@ -1481,7 +1477,7 @@ a.header__mail{
 }
 
 .about__text {
-	color:#fff;
+	color:#ededed;
 	position: relative;
 	margin-top: 90px;
 	font-size: 19px;
@@ -1509,7 +1505,8 @@ a.header__mail{
 }
 
 .about__text-item {
-	margin-top: 30px
+	margin-top: 30px;
+	line-height:35px;
 }
 
 .about__text-item:first-child {
@@ -2378,14 +2375,14 @@ a.header__mail{
 
 .blog {
 	position: relative;
-	background-color: #fff
+	background-color: #ededed
 }
 
 .blog__inner {
 	position: relative;
 	max-width: 1600px;
 	margin: 0 auto;
-	padding: 230px 60px 270px;
+	padding: 230px 60px 200px;
 }
 
 @media screen and (max-width:979px) {
@@ -2524,7 +2521,7 @@ a.header__mail{
 	background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
 }
 .port-list__name p{
-	color:#fff;
+	color:#ededed;
 	font-weight: bold;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -2561,7 +2558,7 @@ a.header__mail{
 	width: 100%;
 	background-color: #fafafa;
 	padding-top: 210px;
-	padding-bottom: 140px;
+	padding-bottom: 330px;
 	overflow-x: hidden
 }
 
@@ -2583,12 +2580,9 @@ a.header__mail{
 .pr__container {
 	position: relative;
 	width: 100%;
-	max-width: 1600px;
 	margin: 0 auto;
-	font-size: 120px;
-	height: 100%;
-	min-height: 180px;
-	background-color:#fff;
+	font-size: 90px;
+	min-height:180px;
 }
 
 @media screen and (max-width:1279px) {
@@ -2619,13 +2613,13 @@ a.header__mail{
 	position: absolute;
 	left: 50%;
 	width: 200%;
-	padding-left: 60px;
-	transform: translateX(-25%);
+	padding-left: 150px;
+	transform: translateX(0%);
 	margin: 0 auto;
 	font-size: inherit;
 	font-weight: 700;
 	color: transparent;
-	-webkit-text-stroke: 2px #666
+	-webkit-text-stroke: rgba(255,255,255,0.2) 0.5px;
 }
 
 @media screen and (max-width:979px) {
@@ -2659,7 +2653,7 @@ a.header__mail{
 
 .pr__inner {
 	overflow-x: hidden;
-	max-width: 1600px;
+	max-width: 1200px;
 	margin: 0 auto
 }
 
@@ -2821,18 +2815,8 @@ a.header__mail{
 .feature__list-item {
 	font-size: 19px;
 	font-weight: 400;
-	line-height: 2.37
-}
-
-.feature__list-item:before {
-	display: inline-block;
-	width: 5px;
-	height: 5px;
-	margin-bottom: 4px;
-	margin-right: 8px;
-	vertical-align: middle;
-	background-color: #141414;
-	content: ""
+	line-height: 2.37;
+	color:#ededed;
 }
 
 @media screen and (max-width:1279px) {
@@ -2862,7 +2846,8 @@ a.header__mail{
 
 .feature__btn {
 	display: inline-block;
-	margin-top: 47px
+	margin-top: 47px;
+	margin-right:10px;
 }
 
 @media screen and (max-width:979px) {
@@ -2873,7 +2858,7 @@ a.header__mail{
 }
 
 .contact {
-	background-color: #fff
+	background-color: #ededed
 }
 
 .contact__inner {
@@ -2897,11 +2882,12 @@ a.header__mail{
 
 .contact__title {
 	display: block;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 	text-align: center;
 	font-size: 24px;
 	letter-spacing: -.015rem;
-	font-weight: 400
+	font-weight: 100;
+	color:#ededed;
 }
 
 @media screen and (max-width:979px) {
@@ -2917,19 +2903,6 @@ a.header__mail{
 	}
 }
 
-.contact__title:before {
-	display: inline-block;
-	content: "";
-	width: 20px;
-	height: 16px;
-	margin-bottom: 2px;
-	margin-right: 14px;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: 100% 0%;
-	background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxOC45IDE2LjciIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6bm9uZTtzdHJva2U6IzMzMzMzMztzdHJva2Utd2lkdGg6Mi41O3N0cm9rZS1saW5lY2FwOnJvdW5kfTwvc3R5bGU+PGcgaWQ9Ikdyb3VwXzU0MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS43NTUgMS43NTgpIj48cGF0aCBpZD0iTGluZV80OCIgY2xhc3M9InN0MCIgZD0iTTEuMyA2LjRsNC41IDUuOCIvPjxwYXRoIGlkPSJMaW5lXzQ5IiBjbGFzcz0ic3QwIiBkPSJNNS44IDEyLjJsOS0xMSIvPjwvZz48L3N2Zz4=)
-}
-
 @media screen and (max-width:639px) {
 	.contact__title:before {
 		width: 18px;
@@ -2940,7 +2913,8 @@ a.header__mail{
 
 .contact__info {
 	display: inline-block;
-	position: relative
+	position: relative;
+	color:#ededed;
 }
 
 .contact__mail {
@@ -2950,7 +2924,7 @@ a.header__mail{
 	font-weight: 500;
 	transition: all .3s;
 	font-family: montserrat, AppleGothic, sans-serif, Helvetica;
-	color:#fff;
+	color:#ededed;
 }
 
 @media screen and (max-width:979px) {
@@ -2969,7 +2943,7 @@ a.header__mail{
 
 .contact__mail:hover,
 .contact__mail:focus {
-	color: #ffba00;
+	color: #ededed;
 	transform: scale(.95)
 }
 
@@ -3053,7 +3027,8 @@ a.header__mail{
 	transform: translateX(-50%);
 	text-align: center;
 	color: #adadad;
-	font-family: spoqa han sans, AppleGothic, sans-serif, Helvetica
+	font-family: spoqa han sans, AppleGothic, sans-serif, Helvetica;
+	padding-bottom:40px;
 }
 
 @media screen and (max-width:639px) {
@@ -3165,7 +3140,7 @@ a.header__mail{
 	max-width: 1620px;
 	min-height: 188px;
 	padding: 60px 20px 20px;
-	background-color: #ffff;
+	background-color: #ededed;
 	border-radius: 6px;
 	box-shadow: 0 5px 32px 0 rgba(15, 15, 15, .15);
 	border: 1px solid #c7c7c7
@@ -3256,7 +3231,7 @@ a.header__mail{
 .real-code__footer {
 	width: 100%;
 	font-size: 14px;
-	color: #fff;
+	color: #ededed;
 	font-family: montserrat, AppleGothic, sans-serif, Helvetica;
 	padding: 14px 0;
 	background-color: #141414
@@ -3316,12 +3291,12 @@ a.header__mail{
 	font-size:141px;
 	font-weight:bold;
 	color:transparent;
-	-webkit-text-stroke: 1px #fff;
+	-webkit-text-stroke: 1px #ededed;
 	line-height:1;
 	display: inline-block;
 }
 .tab-list .ui-state-active a, .tab-list a:hover{
-	color:#fff;
+	color:#ededed;
 }
 @media screen and (max-width:639px) {
 	.tab-list{
@@ -3340,7 +3315,8 @@ a.header__mail{
 	transition: ease .3s;
 	animation-iteration-count: infinite;
 	animation-duration: 1s;
-	color:#fff;
+	color:#ededed;
+	margin-top:20px;
 }
 
 @keyframes shake {
