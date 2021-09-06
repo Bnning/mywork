@@ -30,7 +30,7 @@
             let canvasEl = $(`#${params.id}`).get(0);
             let ctx = canvasEl.getContext('2d');
             let numberOfParticles = 30;
-            let colors = ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C'];
+            let colors = ['#fff', '#ededed', '#fff', '#666'];
 
             let setParticleDirection = function (p) {
                 let angle = anime.random(0, 360) * Math.PI / 180;
