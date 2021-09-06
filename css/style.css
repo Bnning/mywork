@@ -1657,7 +1657,6 @@ a.header__mail{
 @media screen and (max-width:979px) {
 	.skill__title {
 		font-size: 42px;
-		text-align: center;
 		margin-right: 0;
 		margin-bottom: 90px
 	}
@@ -2585,7 +2584,8 @@ a.header__mail{
 	margin: 0 auto;
 	font-size: 120px;
 	height: 100%;
-	min-height: 180px
+	min-height: 180px;
+	background-color:#fff;
 }
 
 @media screen and (max-width:1279px) {
@@ -2943,10 +2943,11 @@ a.header__mail{
 .contact__mail {
 	display: block;
 	text-align: center;
-	font-size: 82px;
+	font-size: 50px;
 	font-weight: 500;
 	transition: all .3s;
-	font-family: montserrat, AppleGothic, sans-serif, Helvetica
+	font-family: montserrat, AppleGothic, sans-serif, Helvetica;
+	color:#fff;
 }
 
 @media screen and (max-width:979px) {
