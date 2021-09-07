@@ -2619,7 +2619,7 @@ a.header__mail{
 	font-size: inherit;
 	font-weight: 700;
 	color: transparent;
-	-webkit-text-stroke: rgba(255,255,255,0.2) 0.5px;
+	-webkit-text-stroke: rgba(255,255,255,0.5) 0.5px;
 }
 
 @media screen and (max-width:979px) {
