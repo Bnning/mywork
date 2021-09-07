@@ -1493,7 +1493,7 @@ a.header__mail{
 
 @media screen and (max-width:979px) {
 	.about__text {
-		margin-top: 180px;
+		margin-top: 60px;
 		font-size: 17px
 	}
 }
@@ -1629,7 +1629,6 @@ a.header__mail{
 	.skill__inner {
 		padding: 0 30px;
 		display: block;
-		text-align: center;
 		-moz-flex-direction: column;
 		flex-direction: column
 	}
@@ -1665,7 +1664,7 @@ a.header__mail{
 @media screen and (max-width:639px) {
 	.skill__title {
 		font-size: 40px;
-		letter-spacing: 5px
+		letter-spacing: -.5px;
 	}
 }
 
@@ -1720,7 +1719,8 @@ a.header__mail{
 @media screen and (max-width:639px) {
 	.skill-list__item {
 		font-size: 16px;
-		word-break: keep-all
+		word-break: keep-all;
+		padding-left:0;
 	}
 }
 
@@ -2566,7 +2566,7 @@ a.header__mail{
 	.pr {
 		padding-top: 180px;
 		padding-bottom: 120px;
-		text-align: center
+		text-align: center;
 	}
 }
 
@@ -2629,14 +2629,14 @@ a.header__mail{
 		transform: translateX(0);
 		padding-left: 0;
 		left: 0;
-		width: auto;
-		text-align: left
+		width: 80%;
+		text-align: left;
+		margin-bottom:20px;
 	}
 
 	.pr__title-accent {
 		display: block;
-		color: #141414;
-		-webkit-text-stroke: 0
+		color: #fff;
 	}
 
 	.pr__title .br-tablet {
@@ -2647,7 +2647,8 @@ a.header__mail{
 @media screen and (max-width:639px) {
 	.pr__title {
 		letter-spacing: .02rem;
-		-webkit-text-stroke: 1px #333
+		-webkit-text-stroke:0;
+		color:#fff;
 	}
 }
 
@@ -2808,7 +2809,8 @@ a.header__mail{
 
 @media screen and (max-width:639px) {
 	.feature__content {
-		width: 90%
+		width: 80%;
+		margin:0 auto;
 	}
 }
 
@@ -2827,6 +2829,9 @@ a.header__mail{
 }
 
 @media screen and (max-width:979px) {
+	.feature__list{
+		margin-bottom:60px;
+	}
 	.feature__list-item {
 		text-align: left
 	}
@@ -2836,7 +2841,7 @@ a.header__mail{
 	.feature__list-item {
 		font-size: 16px;
 		line-height: 1.8;
-		margin-bottom: 20px
+		margin-bottom: 10px
 	}
 
 	.feature__list-item:last-child {
@@ -2852,8 +2857,8 @@ a.header__mail{
 
 @media screen and (max-width:979px) {
 	.feature__btn {
-		margin: 45px auto 0;
-		transform: scale(.84)
+		margin: 5px auto 0;
+		width:80%;
 	}
 }
 
